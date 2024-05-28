@@ -2,6 +2,7 @@ import gi.repository.GLib
 import dbus
 from dbus.mainloop.glib import DBusGMainLoop
 
+# Notify event spec (for arg order): https://specifications.freedesktop.org/notification-spec/notification-spec-latest.html
 def notifications(bus, message):
     # print(type(message))
     print([str(arg) for arg in message.get_args_list() ])
