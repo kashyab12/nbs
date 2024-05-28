@@ -1,1 +1,5 @@
 config.yaml
+.python-version
+data/
+pretrained_models/
+output/
