@@ -1,6 +1,5 @@
 config.yaml
 .python-version
-data/
 pretrained_models/
 output/
 oakviz/node_modules/
